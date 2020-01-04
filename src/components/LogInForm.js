@@ -4,7 +4,7 @@ function LogInForm() {
   const [ username, setUsername ] = useState("")
   const [ password, setPassword ] = useState("")
 
-  const handleUsername = (e) => {
+  const handleUsername = e => {
     setUsername(e.target.value)
   }
 
@@ -12,12 +12,18 @@ function LogInForm() {
     setPassword(e.target.value)
   }
 
+  const handleSubmit = e => {
+    e.preventDefault()
+    console.log("derp")
+  }
+
   return (
     <div>
-      <form>
+      <form onSubmit={handleSubmit}>
         <label>Username</label>
         <br />
         <input
+          type="text"
           value={username}
           onChange={handleUsername}
         />
@@ -25,11 +31,16 @@ function LogInForm() {
         <label>Password</label>
         <br />
         <input
+          type="password"
           value={password}
           onChange={handlePassword}
           />
         <br />
-        <button>Log In</button>
+        <button
+          type="submit"
+        >
+          Log In
+        </button>
       </form>
     </div>
   )

@@ -1,17 +1,13 @@
 import React from 'react'
-
-import { connect } from 'react-redux'
+import UserPageHeading from '../components/UserPageHeading'
 
 function UserPage(props){
   return (
     <div>
-      <h1>Welcome Back {props.user.firstName} {props.user.lastName}</h1>
+      <UserPageHeading />
     </div>
   )
 }
 
-const mapStateToProps = state => {
-  return {user: state.user}
-}
 
-export default connect(mapStateToProps)(UserPage)
+export default UserPage

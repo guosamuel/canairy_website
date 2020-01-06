@@ -6,9 +6,9 @@ import * as serviceWorker from './serviceWorker';
 
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
-import usersReducer from './reducers/usersReducer'
+import userReducer from './reducers/userReducer'
 
-let store = createStore(usersReducer)
+let store = createStore(userReducer)
 
 ReactDOM.render(
   <Provider store={store}>

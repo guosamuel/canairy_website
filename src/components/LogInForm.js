@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 
-function LogInForm() {
+import { connect } from 'react-redux'
+import { logIn } from '../actions/userActions'
+
+function LogInForm(props) {
   const [ username, setUsername ] = useState("")
   const [ password, setPassword ] = useState("")
 
@@ -28,6 +31,7 @@ function LogInForm() {
     // })
     // .then(resp => resp.json())
     // .then()
+    props.logIn()
   }
 
   return (
@@ -59,4 +63,10 @@ function LogInForm() {
   )
 }
 
-export default LogInForm
+const mapDispatchToProps = dispatch => {
+  return {
+    logIn: () => dispatch(logIn())
+  }
+}
+
+export default connect(null, mapDispatchToProps)(LogInForm)

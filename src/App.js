@@ -6,7 +6,6 @@ import UserPage from './containers/UserPage'
 import { connect } from 'react-redux'
 
 function App(props) {
-  console.log(props)
   return (
     <div>
       <Header />

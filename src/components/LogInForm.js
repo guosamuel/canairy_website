@@ -43,6 +43,9 @@ function LogInForm(props) {
           type="text"
           value={username}
           onChange={handleUsername}
+          style={{
+            border: '1px solid'
+          }}
         />
         <br />
         <label>Password</label>
@@ -51,10 +54,16 @@ function LogInForm(props) {
           type="password"
           value={password}
           onChange={handlePassword}
+          style={{
+            border: '1px solid'
+          }}
           />
         <br />
         <button
           type="submit"
+          style={{
+            border: '1px solid'
+          }}
         >
           Log In
         </button>

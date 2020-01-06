@@ -12,6 +12,9 @@ function LogOutButton(props) {
     <div>
       <button
         onClick={handleLogOut}
+        style={{
+          border: '1px solid'
+        }}
       >
         Log Out
       </button>

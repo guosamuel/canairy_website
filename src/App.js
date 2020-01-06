@@ -1,14 +1,22 @@
 import React from 'react';
 import Header from './components/Header'
 import LogIn from './containers/LogIn'
+import UserPage from './containers/UserPage'
 
-function App() {
+import { connect } from 'react-redux'
+
+function App(props) {
+  console.log(props)
   return (
     <div>
       <Header />
-      <LogIn />
+      {!!props.user ? <UserPage /> : <LogIn />}
     </div>
   );
 }
 
-export default App;
+const mapStateToProps = state => {
+  return {user: state.user}
+}
+
+export default connect(mapStateToProps)(App);

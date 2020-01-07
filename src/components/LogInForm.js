@@ -17,7 +17,7 @@ function LogInForm(props) {
 
   const handleSubmit = e => {
     e.preventDefault()
-    console.log("derp")
+    // console.log("derp")
     // NEED TO TALK WITH DANIEL HOW THE ENDPOINT WOULD WORK AND HOW THE TOKEN IS GONNA BE GENERATED
     // NEED TO CHANGE URL TO WHATEVER THE END POINT WILL BE
     // fetch("dev.canairy.ai/login", {

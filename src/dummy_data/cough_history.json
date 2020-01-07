@@ -1,0 +1,767 @@
+[
+  {
+    "user_id": "rrahman",
+    "created_at": "4/10/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 1,
+    "severity": 0.108498643
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/10/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 1,
+    "severity": 0.108498643
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/10/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 1,
+    "severity": 0.108498643
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/10/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 1,
+    "severity": 0.108498643
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/10/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 1,
+    "severity": 0.108498643
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/10/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 1,
+    "severity": 0.108498643
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/10/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 1,
+    "severity": 0.108498643
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/10/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 1,
+    "severity": 0.108498643
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/10/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 1,
+    "severity": 0.108498643
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/10/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 1,
+    "severity": 0.108498643
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/12/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": 1.046457823
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/12/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": 1.046457823
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/12/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 1.046457823
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/12/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 1.046457823
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/12/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": 1.046457823
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/12/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": 1.046457823
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/12/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 1.046457823
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/12/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 1.046457823
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/12/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 1.046457823
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/14/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": -0.329422563
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/14/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": -0.329422563
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/14/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": -0.329422563
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/14/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": -0.329422563
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/14/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": -0.329422563
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/14/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": -0.329422563
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/14/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": -0.329422563
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/14/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": -0.329422563
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/14/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": -0.329422563
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/14/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": -0.329422563
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/14/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": -0.329422563
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/14/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": -0.329422563
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/15/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": 0.317669141
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/15/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": 0.317669141
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/15/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": 0.317669141
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/15/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": 0.317669141
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/15/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": 0.317669141
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/15/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": 0.317669141
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/15/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": 0.317669141
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/15/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": 0.317669141
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/15/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": 0.317669141
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/15/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": 0.317669141
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/15/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": 0.317669141
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/15/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 0.317669141
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/15/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 0.317669141
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/15/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 0.317669141
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/15/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 0.317669141
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/15/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 0.317669141
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/15/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 0.317669141
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/15/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 0.317669141
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/15/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 0.317669141
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/15/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 0.317669141
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/15/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 0.317669141
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/16/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 0.133565491
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/16/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 0.133565491
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/16/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 0.133565491
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/16/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 0.133565491
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/16/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 0.133565491
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/16/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 0.133565491
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/16/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 0.133565491
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/16/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 0.133565491
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/16/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 0.133565491
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/16/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 0.133565491
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/16/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 0.133565491
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/16/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": 0.133565491
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/18/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": -0.140463033
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/18/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": -0.140463033
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/18/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": -0.140463033
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/18/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": -0.140463033
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/18/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 0,
+    "baseline": 0,
+    "severity": -0.140463033
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/18/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": -0.140463033
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/18/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": -0.140463033
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/19/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": -1.617933849
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/19/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": -1.617933849
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/19/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": -1.617933849
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/19/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": -1.617933849
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/19/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": -1.617933849
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/19/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": -1.617933849
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/19/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": -1.617933849
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/19/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": -1.617933849
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/19/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": -1.617933849
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/19/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": -1.617933849
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/19/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": -1.617933849
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/20/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": -0.00049143
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/20/2019",
+    "time": "02:26:55PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": -0.00049143
+  },
+  {
+    "user_id": "rrahman",
+    "created_at": "4/20/2019",
+    "time": "02:35:32PM",
+    "cough_detected": 1,
+    "charecteristics": 1,
+    "baseline": 0,
+    "severity": -0.00049143
+  }
+]

@@ -10,6 +10,7 @@ function UserPage(props){
     setTimeout(() => setLoading(false), 2000)
     // NEED TO TALK WITH DANIEL HOW THE ENDPOINT WOULD WORK AND HOW THE TOKEN IS GONNA BE GENERATED
     // NEED TO SET THE LOADING TO FALSE IN THE .then()
+    // THIS FETCH REQUEST IS WHERE I AM GETTING ALL OF THE USER'S DATA
     // fetch("dev.canairy.ai/user")
     //   .then(resp => resp.json())
     //   .then()

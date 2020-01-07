@@ -1,7 +1,7 @@
 export const logIn = () => {
   return {
     type: "LOGIN",
-    payload: {firstName: "Asuna", lastName: "Yuuki"}
+    payload: 200
   }
 }
 

@@ -20,6 +20,7 @@ function LogInForm(props) {
     // console.log("derp")
     // NEED TO TALK WITH DANIEL HOW THE ENDPOINT WOULD WORK AND HOW THE TOKEN IS GONNA BE GENERATED
     // NEED TO CHANGE URL TO WHATEVER THE END POINT WILL BE
+    // THIS SHALL ONLY BE FETCHING THE 200 MESSAGE, NOT ANYTHING ELSE
     // fetch("dev.canairy.ai/login", {
     //   headers: {
     //     'Content-Type': 'application/json',

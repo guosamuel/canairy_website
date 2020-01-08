@@ -3,7 +3,7 @@ export default (state = {status: null, user: null}, action) => {
     case "LOGIN":
       return {...state, status: action.payload}
     case "LOGOUT":
-      return {...state, staus: null, user: null}
+      return {...state, status: null, user: null}
     case "USERINFO":
       return {...state, user: action.payload}
     default:

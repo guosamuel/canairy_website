@@ -9,13 +9,13 @@ function App(props) {
   return (
     <div>
       <Header />
-      {!!props.user ? <UserPage /> : <LogIn />}
+      {props.status === 200 ? <UserPage /> : <LogIn />}
     </div>
   );
 }
 
 const mapStateToProps = state => {
-  return {user: state.user}
+  return {status: state.status}
 }
 
 export default connect(mapStateToProps)(App);

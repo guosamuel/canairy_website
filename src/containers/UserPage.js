@@ -3,6 +3,9 @@ import UserPageHeading from '../components/UserPageHeading'
 import LogOutButton from '../components/LogOutButton'
 import PacmanLoader from 'react-spinners/PacmanLoader'
 
+import { connect } from 'react-redux'
+import { userInfo } from '../actions/userActions'
+
 function UserPage(props){
   const [ loading, setLoading ] = useState(true)
 
@@ -14,6 +17,7 @@ function UserPage(props){
     // fetch("dev.canairy.ai/user")
     //   .then(resp => resp.json())
     //   .then()
+    props.userInfo({firstName: "Asuna", lastName: "Yuuki"})
   }, [])
 
   return (
@@ -29,4 +33,10 @@ function UserPage(props){
   )
 }
 
-export default UserPage
+const mapDispatchToProps = dispatch => {
+  return {
+    userInfo: info => dispatch(userInfo(info))
+  }
+}
+
+export default connect(null, mapDispatchToProps)(UserPage)

@@ -1,4 +1,4 @@
-user_id,created_at,time,cough_detected,charecteristics,baseline,severity
+user_id,created_at,time,cough_detected,characteristics,baseline,severity
 rrahman,4/10/2019,2:26:55 PM,1,0,1,0.108498643
 rrahman,4/10/2019,2:27:00 PM,1,0,1,0.108498643
 rrahman,4/10/2019,2:27:05 PM,1,0,1,0.108498643

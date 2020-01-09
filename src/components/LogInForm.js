@@ -6,6 +6,7 @@ import { logIn } from '../actions/userActions'
 function LogInForm(props) {
   const [ username, setUsername ] = useState("")
   const [ password, setPassword ] = useState("")
+  const [ correctLogIn, setCorrectLogIn ] = useState(true)
 
   const handleUsername = e => {
     setUsername(e.target.value)
@@ -32,11 +33,17 @@ function LogInForm(props) {
     // })
     // .then(resp => resp.json())
     // .then()
+
+    // this is just a dummy test. Will need to fix this logic up along with the redux state to make it flow better
     props.logIn()
+    if(!props.status) {
+      setCorrectLogIn(false)
+    } 
   }
 
   return (
     <div>
+      <h2>{correctLogIn ? null : "Incorrect username or password."}</h2>
       <form onSubmit={handleSubmit}>
         <label>Username</label>
         <br />
@@ -73,10 +80,17 @@ function LogInForm(props) {
   )
 }
 
+
+const mapStateToProps = state => {
+  return {
+    status: state.status
+  }
+}
+
 const mapDispatchToProps = dispatch => {
   return {
     logIn: () => dispatch(logIn())
   }
 }
 
-export default connect(null, mapDispatchToProps)(LogInForm)
+export default connect(mapStateToProps, mapDispatchToProps)(LogInForm)

@@ -11,8 +11,8 @@ function CharacteristicsChart() {
   })
   const dry = dummyData.length - wet.characteristics
   const characteristicsData = [
-    {angle: wet.characteristics, label: 'Wet', innerRadius: 0.5, showLabels: true},
-    {angle: dry, label: 'Dry', innerRadius: 0.5, showLabels: true}
+    {angle: wet.characteristics, label: 'Wet', innerRadius: 0.5},
+    {angle: dry, label: 'Dry', innerRadius: 0.5}
   ]
 
   return (
@@ -22,6 +22,7 @@ function CharacteristicsChart() {
       data={characteristicsData}
       width={300}
       height={300}
+      showLabels={true}
     />
     </div>
   )

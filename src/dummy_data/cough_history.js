@@ -3,7 +3,7 @@ export const dummyData = [
     "user_id": "rrahman",
     "created_at": "4/10/2019",
     "time": "2:26:55 PM",
-    "cough_detected": 1,
+    "cough_detected": 0,
     "characteristics": 0,
     "baseline": 1,
     "severity": 0.108498643
@@ -12,7 +12,7 @@ export const dummyData = [
     "user_id": "rrahman",
     "created_at": "4/10/2019",
     "time": "2:27:00 PM",
-    "cough_detected": 1,
+    "cough_detected": 0,
     "characteristics": 0,
     "baseline": 1,
     "severity": 0.108498643
@@ -21,7 +21,7 @@ export const dummyData = [
     "user_id": "rrahman",
     "created_at": "4/10/2019",
     "time": "2:27:05 PM",
-    "cough_detected": 1,
+    "cough_detected": 0,
     "characteristics": 0,
     "baseline": 1,
     "severity": 0.108498643
@@ -30,7 +30,7 @@ export const dummyData = [
     "user_id": "rrahman",
     "created_at": "4/10/2019",
     "time": "2:27:10 PM",
-    "cough_detected": 1,
+    "cough_detected": 0,
     "characteristics": 0,
     "baseline": 1,
     "severity": 0.108498643
@@ -39,7 +39,7 @@ export const dummyData = [
     "user_id": "rrahman",
     "created_at": "4/10/2019",
     "time": "2:27:15 PM",
-    "cough_detected": 1,
+    "cough_detected": 0,
     "characteristics": 0,
     "baseline": 1,
     "severity": 0.108498643
@@ -48,7 +48,7 @@ export const dummyData = [
     "user_id": "rrahman",
     "created_at": "4/10/2019",
     "time": "2:27:20 PM",
-    "cough_detected": 1,
+    "cough_detected": 0,
     "characteristics": 0,
     "baseline": 1,
     "severity": 0.108498643
@@ -57,7 +57,7 @@ export const dummyData = [
     "user_id": "rrahman",
     "created_at": "4/10/2019",
     "time": "2:27:25 PM",
-    "cough_detected": 1,
+    "cough_detected": 0,
     "characteristics": 0,
     "baseline": 1,
     "severity": 0.108498643
@@ -66,7 +66,7 @@ export const dummyData = [
     "user_id": "rrahman",
     "created_at": "4/10/2019",
     "time": "2:27:30 PM",
-    "cough_detected": 1,
+    "cough_detected": 0,
     "characteristics": 0,
     "baseline": 1,
     "severity": 0.108498643
@@ -75,7 +75,7 @@ export const dummyData = [
     "user_id": "rrahman",
     "created_at": "4/10/2019",
     "time": "2:27:35 PM",
-    "cough_detected": 1,
+    "cough_detected": 0,
     "characteristics": 1,
     "baseline": 1,
     "severity": 0.108498643
@@ -84,7 +84,7 @@ export const dummyData = [
     "user_id": "rrahman",
     "created_at": "4/10/2019",
     "time": "2:27:40 PM",
-    "cough_detected": 1,
+    "cough_detected": 0,
     "characteristics": 1,
     "baseline": 1,
     "severity": 0.108498643

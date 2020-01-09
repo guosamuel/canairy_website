@@ -9,7 +9,9 @@ function CoughDetectedChart() {
   })
   // console.log(coughsDetected)
   const coughsNotDetected = dummyData.length - coughsDetected.cough_detected
-  const coughData = [{angle: coughsDetected.cough_detected}, {angle: coughsNotDetected}]
+  const coughData = [
+    {angle: coughsDetected.cough_detected, innerRadius: 0.5, label: "Coughs Detected"},
+    {angle: coughsNotDetected, innerRadius: 0.5, label: "Coughs Not Detected"}]
   // console.log(coughData)
 
   return (
@@ -19,6 +21,7 @@ function CoughDetectedChart() {
       data={coughData}
       width={300}
       height={300}
+      showLabels={true}
     />
     </div>
   )

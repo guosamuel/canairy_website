@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import UserPageHeading from '../components/UserPageHeading'
 import LogOutButton from '../components/LogOutButton'
 import PacmanLoader from 'react-spinners/PacmanLoader'
+import CoughDetectedChart from '../components/CoughDetectedChart'
 
 import { connect } from 'react-redux'
 import { userInfo } from '../actions/userActions'
@@ -26,6 +27,7 @@ function UserPage(props){
         <PacmanLoader loading={loading} /> :
         <React.Fragment>
           <UserPageHeading />
+          <CoughDetectedChart />
           <LogOutButton />
         </React.Fragment>
       }

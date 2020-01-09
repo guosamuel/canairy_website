@@ -1,4 +1,4 @@
-[
+export const dummyData = [
   {
     "user_id": "rrahman",
     "created_at": "4/10/2019",

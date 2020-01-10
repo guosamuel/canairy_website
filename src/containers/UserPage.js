@@ -4,6 +4,7 @@ import LogOutButton from '../components/LogOutButton'
 import PacmanLoader from 'react-spinners/PacmanLoader'
 import CoughDetectedChart from '../components/CoughDetectedChart'
 import CharacteristicsChart from '../components/CharacteristicsChart'
+import SeverityCharts from '../components/SeverityCharts'
 
 import { connect } from 'react-redux'
 import { userInfo } from '../actions/userActions'
@@ -30,6 +31,7 @@ function UserPage(props){
           <UserPageHeading />
           <CoughDetectedChart />
           <CharacteristicsChart />
+          <SeverityCharts />
           <LogOutButton />
         </React.Fragment>
       }

@@ -40,7 +40,7 @@ function sanitizeTime(time) {
 
 function OverallSeverityChart() {
   // console.log("testing:", new Date(dummyData[0].created_at + " " + sanitizeTime(dummyData[0].time)).getTime())
-  const formattedData = dummyData.map( data => {
+  const formattedData = dummyData.map( (data, index) => {
     return {
       x: new Date(data.created_at + " " + sanitizeTime(data.time)).getTime(),
       y: data.severity
@@ -51,7 +51,7 @@ function OverallSeverityChart() {
   return (
     <div>
       <h3>Overall Chart To Date</h3>
-      <XYPlot xType="time" width={600} height={600}>
+      <XYPlot xType="time" width={300} height={300}>
         <HorizontalGridLines />
         <VerticalGridLines />
         <XAxis title="Time" />

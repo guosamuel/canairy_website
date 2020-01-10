@@ -2,7 +2,7 @@ export const dummyData = [
   {
     "user_id": "rrahman",
     "created_at": "4/10/2019",
-    "time": "10:26:55 PM",
+    "time": "2:26:55 PM",
     "cough_detected": 0,
     "characteristics": 0,
     "baseline": 1,

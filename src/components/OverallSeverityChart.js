@@ -25,7 +25,16 @@ function sanitizeTime(time) {
         return time.substring(0,8)
       }
     }
-    // console.log((parseInt(time.substring(0,2), 10) + 12).toString())
+  } else if (time.substring(time.length - 2) === "AM") {
+    if (time.length === 10) {
+      return time.substring(0,7)
+    } else if (time.length === 11) {
+      if (time.substring(0,2) !== "12") {
+        return time.substring(0,8)
+      } else {
+        return "00" + time.substring(2,8)
+      }
+    }
   }
 }
 

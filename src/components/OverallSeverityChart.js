@@ -54,8 +54,8 @@ function OverallSeverityChart() {
       <XYPlot xType="time" width={600} height={600}>
         <HorizontalGridLines />
         <VerticalGridLines />
-        <XAxis title="X Axis" />
-        <YAxis title="Y Axis" />
+        <XAxis title="Time" />
+        <YAxis title="Severity" />
         <LineSeries
           data={formattedData}
         />

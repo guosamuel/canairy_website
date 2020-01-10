@@ -1,11 +1,13 @@
 import React from 'react'
-import DailySeverityChart from './components/DailySeverityChart'
-import OverallSeverityChart from './components/OverallSeverityChart'
+import DailySeverityChart from './DailySeverityChart'
+import OverallSeverityChart from './OverallSeverityChart'
 
 function SeverityCharts() {
   return (
-    <DailySeverityChart />
-    <OverallSeverityChart />
+    <div>
+      <DailySeverityChart />
+      <OverallSeverityChart />
+    </div>
   )
 }
 

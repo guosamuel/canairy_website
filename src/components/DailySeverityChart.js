@@ -1,5 +1,5 @@
 import React from 'react'
-import { dummyData } from '../dummy_data'
+import { dummyData } from '../dummy_data/cough_history'
 
 function DailySeverityChart(){
   return (

@@ -39,10 +39,28 @@ function sanitizeTime(time) {
 }
 
 function OverallSeverityChart() {
-  console.log("testing:", new Date(dummyData[0].created_at + " " + sanitizeTime(dummyData[0].time)))
-  // const testDate = new Date(dummyData[0].created_at + " 0" + dummyData[0].time.substring(0,7))
+  // console.log("testing:", new Date(dummyData[0].created_at + " " + sanitizeTime(dummyData[0].time)).getTime())
+  const formattedData = dummyData.map( data => {
+    return {
+      x: new Date(data.created_at + " " + sanitizeTime(data.time)).getTime(),
+      y: data.severity
+    }
+  })
+
+  // console.log(formattedData)
   return (
-    <div>derp</div>
+    <div>
+      <h3>Overall Chart To Date</h3>
+      <XYPlot xType="time" width={600} height={600}>
+        <HorizontalGridLines />
+        <VerticalGridLines />
+        <XAxis title="X Axis" />
+        <YAxis title="Y Axis" />
+        <LineSeries
+          data={formattedData}
+        />
+      </XYPlot>
+    </div>
   )
 }
 

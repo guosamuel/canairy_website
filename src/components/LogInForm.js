@@ -16,29 +16,42 @@ function LogInForm(props) {
     setPassword(e.target.value)
   }
 
+  const clearLogInForm = () => {
+    setUsername("")
+    setPassword("")
+  }
+
   const handleSubmit = e => {
     e.preventDefault()
     // console.log("derp")
     // NEED TO TALK WITH DANIEL HOW THE ENDPOINT WOULD WORK AND HOW THE TOKEN IS GONNA BE GENERATED
     // NEED TO CHANGE URL TO WHATEVER THE END POINT WILL BE
     // THIS SHALL ONLY BE FETCHING THE 200 MESSAGE, NOT ANYTHING ELSE
-    // fetch("dev.canairy.ai/login", {
-    //   headers: {
-    //     'Content-Type': 'application/json',
-    //   },
-    //   body: JSON.stringify({
-    //     username: username,
-    //     password: password
-    //   })
-    // })
-    // .then(resp => resp.json())
-    // .then()
+    fetch("http://localhost:8080/uauth", {
+      method: "POST",
+      mode: "cors",
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        username: username,
+        password: password
+      })
+    })
+    .then(resp => {
+      if (resp.status === 401) {
+        setCorrectLogIn(false)
+      } else if ( resp.status === 200) {
+        console.log("success in logging in")
+      }
+      clearLogInForm()
+    })
 
     // this is just a dummy test. Will need to fix this logic up along with the redux state to make it flow better
-    props.logIn()
-    if(!props.status) {
-      setCorrectLogIn(false)
-    } 
+    // props.logIn()
+    // if(!props.status) {
+    //   setCorrectLogIn(false)
+    // }
   }
 
   return (

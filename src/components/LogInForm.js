@@ -43,7 +43,7 @@ function LogInForm(props) {
         setCorrectLogIn(false)
         clearLogInForm()
       } else if ( resp.status === 200 ) {
-        props.logIn()
+        props.logIn(username)
       }
     })
     .catch(error => alert(error))
@@ -103,7 +103,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    logIn: () => dispatch(logIn())
+    logIn: (username) => dispatch(logIn(username))
   }
 }
 

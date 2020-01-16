@@ -20,6 +20,7 @@ function UserPage(props){
     // fetch("dev.canairy.ai/user")
     //   .then(resp => resp.json())
     //   .then()
+    console.log(props.username)
     props.userInfo({firstName: "Asuna", lastName: "Yuuki"})
   }, [])
 
@@ -39,10 +40,16 @@ function UserPage(props){
   )
 }
 
+const mapStateToProps = state => {
+  return {
+    username: state.user.username
+  }
+}
+
 const mapDispatchToProps = dispatch => {
   return {
     userInfo: info => dispatch(userInfo(info))
   }
 }
 
-export default connect(null, mapDispatchToProps)(UserPage)
+export default connect(mapStateToProps, mapDispatchToProps)(UserPage)

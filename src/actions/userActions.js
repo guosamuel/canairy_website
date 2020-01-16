@@ -1,7 +1,7 @@
-export const logIn = () => {
+export const logIn = username => {
   return {
     type: "LOGIN",
-    payload: 200
+    payload: {status: 200, username: username}
   }
 }
 

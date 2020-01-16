@@ -13,7 +13,7 @@ function UserPage(props){
   const [ loading, setLoading ] = useState(true)
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 2000)
+    // setTimeout(() => setLoading(false), 2000)
     // NEED TO TALK WITH DANIEL HOW THE ENDPOINT WOULD WORK AND HOW THE TOKEN IS GONNA BE GENERATED
     // NEED TO SET THE LOADING TO FALSE IN THE .then()
     // THIS FETCH REQUEST IS WHERE I AM GETTING ALL OF THE USER'S DATA
@@ -27,7 +27,13 @@ function UserPage(props){
         username: props.username
       })
     })
-    .then(resp => console.log(resp))
+    .then(resp => resp.json())
+    .then(data => {
+      // the props.userInfo will be here when the api is able to properly communicate
+      // with the databse. For the time being, continue using the dummy data
+      setLoading(false)
+    })
+    .catch(error => alert(error))
     props.userInfo({firstName: "Asuna", lastName: "Yuuki"})
   }, [])
 

@@ -41,10 +41,10 @@ function LogInForm(props) {
     .then(resp => {
       if (resp.status === 401) {
         setCorrectLogIn(false)
-      } else if ( resp.status === 200) {
-        console.log("success in logging in")
+        clearLogInForm()
+      } else if ( resp.status === 200 ) {
+        props.logIn()
       }
-      clearLogInForm()
     })
 
     // this is just a dummy test. Will need to fix this logic up along with the redux state to make it flow better

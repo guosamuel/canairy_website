@@ -46,6 +46,7 @@ function LogInForm(props) {
         props.logIn()
       }
     })
+    .catch(error => alert(error))
 
     // this is just a dummy test. Will need to fix this logic up along with the redux state to make it flow better
     // props.logIn()

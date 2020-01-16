@@ -17,10 +17,17 @@ function UserPage(props){
     // NEED TO TALK WITH DANIEL HOW THE ENDPOINT WOULD WORK AND HOW THE TOKEN IS GONNA BE GENERATED
     // NEED TO SET THE LOADING TO FALSE IN THE .then()
     // THIS FETCH REQUEST IS WHERE I AM GETTING ALL OF THE USER'S DATA
-    // fetch("dev.canairy.ai/user")
-    //   .then(resp => resp.json())
-    //   .then()
-    console.log(props.username)
+    fetch("http://localhost:8080/users", {
+      method: "POST",
+      mode: 'cors',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        username: props.username
+      })
+    })
+    .then(resp => console.log(resp))
     props.userInfo({firstName: "Asuna", lastName: "Yuuki"})
   }, [])
 

@@ -28,15 +28,15 @@ function LogInForm(props) {
     // NEED TO CHANGE URL TO WHATEVER THE END POINT WILL BE
     // THIS SHALL ONLY BE FETCHING THE 200 MESSAGE, NOT ANYTHING ELSE
     fetch("http://localhost:8080/uauth", {
-      method: "POST",
+      method: "GET",
       mode: "cors",
       headers: {
         'Content-Type': 'application/json',
+        Authorization: JSON.stringify({
+          username: username,
+          password: password
+        })
       },
-      body: JSON.stringify({
-        username: username,
-        password: password
-      })
     })
     .then(resp => {
       if (resp.status === 401) {

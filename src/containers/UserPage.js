@@ -18,14 +18,15 @@ function UserPage(props){
     // NEED TO SET THE LOADING TO FALSE IN THE .then()
     // THIS FETCH REQUEST IS WHERE I AM GETTING ALL OF THE USER'S DATA
     fetch("http://localhost:8080/users", {
-      method: "POST",
+      method: "GET",
       mode: 'cors',
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        username: JSON.stringify({
+          username: props.username
+        })
       },
-      body: JSON.stringify({
-        username: props.username
-      })
+
     })
     .then(resp => resp.json())
     .then(data => {

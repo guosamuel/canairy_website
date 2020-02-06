@@ -22,6 +22,9 @@ import AdminNavbarLinks from "../Navbars/AdminNavbarLinks.jsx";
 
 import logo from "assets/img/reactlogo.png";
 
+import { connect } from 'react-redux'
+
+
 class Sidebar extends Component {
   constructor(props) {
     super(props);
@@ -40,6 +43,7 @@ class Sidebar extends Component {
     window.addEventListener("resize", this.updateDimensions.bind(this));
   }
   render() {
+    console.log(this.props)
     const sidebarBackground = {
       backgroundImage: "url(" + this.props.image + ")"
     };
@@ -57,7 +61,7 @@ class Sidebar extends Component {
           )}
         <div className="logo">
           <a
-            href="https://www.creative-tim.com?ref=lbd-sidebar"
+            href="/admin/dashboard"
             className="simple-text logo-mini"
           >
             <div className="logo-img">
@@ -65,10 +69,10 @@ class Sidebar extends Component {
             </div>
           </a>
           <a
-            href="https://www.creative-tim.com?ref=lbd-sidebar"
+            href="/admin/dashboard"
             className="simple-text logo-normal"
           >
-            Creative Tim
+            {this.props.user ? `${this.props.user.firstName} ${this.props.user.lastName}` : null}
           </a>
         </div>
         <div className="sidebar-wrapper">
@@ -104,4 +108,10 @@ class Sidebar extends Component {
   }
 }
 
-export default Sidebar;
+const mapStateToProps = state => {
+  return {
+    user: state.user
+  }
+}
+
+export default connect(mapStateToProps)(Sidebar);

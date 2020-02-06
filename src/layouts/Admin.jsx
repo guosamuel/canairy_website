@@ -22,7 +22,9 @@ import NotificationSystem from "react-notification-system";
 import AdminNavbar from "components/Navbars/AdminNavbar";
 import Footer from "components/Footer/Footer";
 import Sidebar from "components/Sidebar/Sidebar";
-import FixedPlugin from "components/FixedPlugin/FixedPlugin.jsx";
+
+import { connect } from 'react-redux'
+import { userInfo } from '../actions/userActions'
 
 import { style } from "variables/Variables.jsx";
 
@@ -122,6 +124,8 @@ class Admin extends Component {
     }
   };
   componentDidMount() {
+
+    this.props.userInfo({firstName: "Asuna", lastName: "Yuuki"})
     // this.setState({ _notificationSystem: this.refs.notificationSystem });
     // var _notificationSystem = this.refs.notificationSystem;
     // var color = Math.floor(Math.random() * 4 + 1);
@@ -169,16 +173,7 @@ class Admin extends Component {
       this.refs.mainPanel.scrollTop = 0;
     }
   }
-  // <FixedPlugin
-  // handleImageClick={this.handleImageClick}
-  // handleColorClick={this.handleColorClick}
-  // handleHasImage={this.handleHasImage}
-  // bgColor={this.state["color"]}
-  // bgImage={this.state["image"]}
-  // mini={this.state["mini"]}
-  // handleFixedClick={this.handleFixedClick}
-  // fixedClasses={this.state.fixedClasses}
-  // />
+
   render() {
     return (
       <div className="wrapper">
@@ -199,4 +194,10 @@ class Admin extends Component {
   }
 }
 
-export default Admin;
+const mapDispatchToProps = dispatch => {
+  return {
+    userInfo: info => dispatch(userInfo(info))
+  }
+}
+
+export default connect(null, mapDispatchToProps)(Admin);

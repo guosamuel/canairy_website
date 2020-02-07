@@ -22,6 +22,7 @@ import Typography from "views/Typography.jsx";
 import Icons from "views/Icons.jsx";
 import Notifications from "views/Notifications.jsx";
 import Settings from "views/Settings.jsx"
+import Feedback from "views/Feedback.jsx"
 
 const dashboardRoutes = [
   {
@@ -64,6 +65,13 @@ const dashboardRoutes = [
     name: "Notifications",
     icon: "pe-7s-bell",
     component: Notifications,
+    layout: "/admin"
+  },
+  {
+    path: "/feedback",
+    name: "Feedback",
+    icon: "pe-7s-note",
+    component: Feedback,
     layout: "/admin"
   },
   {

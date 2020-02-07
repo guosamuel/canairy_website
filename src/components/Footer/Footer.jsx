@@ -24,7 +24,7 @@ class Footer extends Component {
       <footer className="footer">
         <Grid fluid>
           <p className="copyright pull-right">
-            &copy; 2019 Canairy
+            &copy; 2020 Canairy
           </p>
         </Grid>
       </footer>

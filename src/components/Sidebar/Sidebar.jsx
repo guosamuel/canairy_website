@@ -43,7 +43,7 @@ class Sidebar extends Component {
     window.addEventListener("resize", this.updateDimensions.bind(this));
   }
   render() {
-    console.log(this.props)
+    console.log(this.props.routes)
     const sidebarBackground = {
       backgroundImage: "url(" + this.props.image + ")"
     };

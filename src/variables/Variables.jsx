@@ -501,6 +501,12 @@ var legendPie = {
   types: ["info", "danger", "warning"]
 };
 
+// Dummy data for Canairy
+const coughsDetectedLegendPie = {
+  names: ["Detected", "Not Detected"],
+  types: ["warning", "success"]
+}
+
 // Data for Line Chart
 var dataSales = {
   labels: [
@@ -605,6 +611,7 @@ module.exports = {
   iconsArray, // For icons (Icons view)
   dataPie,
   legendPie,
+  coughsDetectedLegendPie,
   dataSales,
   optionsSales,
   responsiveSales,

@@ -25,6 +25,7 @@ import { Tasks } from "components/Tasks/Tasks.jsx";
 import {
   dataPie,
   legendPie,
+  coughsDetectedLegendPie,
   dataSales,
   optionsSales,
   responsiveSales,
@@ -114,9 +115,8 @@ class Dashboard extends Component {
             <Col md={4}>
               <Card
                 statsIcon="fa fa-clock-o"
-                title="Email Statistics"
-                category="Last Campaign Performance"
-                stats="Campaign sent 2 days ago"
+                title="Coughs Detected"
+                stats="Updated now"
                 content={
                   <div
                     id="chartPreferences"
@@ -126,7 +126,7 @@ class Dashboard extends Component {
                   </div>
                 }
                 legend={
-                  <div className="legend">{this.createLegend(legendPie)}</div>
+                  <div className="legend">{this.createLegend(coughsDetectedLegendPie)}</div>
                 }
               />
             </Col>

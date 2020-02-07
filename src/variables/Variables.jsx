@@ -20,6 +20,8 @@
 // // // For notifications
 // //
 //
+import { dummyData } from './dummy_data/cough_history.js'
+
 var defaultWidth =
   window.screen.width > 768
     ? (window.screen.width * 1) / 3
@@ -507,6 +509,16 @@ const coughsDetectedLegendPie = {
   types: ["warning", "success"]
 }
 
+const coughsDetected = dummyData.reduce( (sum, cough) => {
+    return ({cough_detected: sum.cough_detected + cough.cough_detected})
+  })
+const coughsNotDetected = dummyData.length - coughsDetected.cough_detected
+const coughsDetectedDataPie = [
+  {angle: coughsDetected.cough_detected, innerRadius: 0.5, label: "Coughs Detected"},
+  {angle: coughsNotDetected, innerRadius: 0.5, label: "Coughs Not Detected"}
+];
+
+
 // Data for Line Chart
 var dataSales = {
   labels: [
@@ -612,6 +624,7 @@ module.exports = {
   dataPie,
   legendPie,
   coughsDetectedLegendPie,
+  coughsDetectedDataPie,
   dataSales,
   optionsSales,
   responsiveSales,

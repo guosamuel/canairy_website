@@ -19,8 +19,8 @@ import React, { Component } from "react";
 import ChartistGraph from "react-chartist";
 import { Grid, Row, Col } from "react-bootstrap";
 
-import '../../node_modules/react-vis/dist/style.css';
-import { RadialChart } from 'react-vis'
+// import '../../node_modules/react-vis/dist/style.css';
+// import { RadialChart } from 'react-vis'
 
 import { Card } from "components/Card/Card.jsx";
 import { StatsCard } from "components/StatsCard/StatsCard.jsx";
@@ -30,6 +30,7 @@ import {
   legendPie,
   coughsDetectedLegendPie,
   coughsDetectedDataPie,
+  optionsCoughsDetected,
   dataSales,
   optionsSales,
   responsiveSales,
@@ -126,12 +127,7 @@ class Dashboard extends Component {
                     id="chartPreferences"
                     className="ct-chart ct-perfect-fourth"
                   >
-                    <RadialChart
-                      data={coughsDetectedDataPie}
-                      width={300}
-                      height={300}
-                      showLabels={true}
-                    />
+                    <ChartistGraph data={coughsDetectedDataPie} options={optionsCoughsDetected} type="Pie" />
                   </div>
                 }
                 legend={

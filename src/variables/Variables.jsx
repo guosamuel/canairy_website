@@ -506,17 +506,26 @@ var legendPie = {
 // Dummy data for Canairy
 export const coughsDetectedLegendPie = {
   names: ["Detected", "Not Detected"],
-  types: ["warning", "success"]
+  types: ["danger", "info"]
 }
 
 const coughsDetected = dummyData.reduce( (sum, cough) => {
     return ({cough_detected: sum.cough_detected + cough.cough_detected})
   })
 const coughsNotDetected = dummyData.length - coughsDetected.cough_detected
-export const coughsDetectedDataPie = [
-    {angle: coughsDetected.cough_detected, innerRadius: 0.5, label: "Coughs Detected"},
-    {angle: coughsNotDetected, innerRadius: 0.5, label: "Coughs Not Detected"}
-]
+export const coughsDetectedDataPie = {
+  labels: [`${coughsNotDetected}`, `${coughsDetected.cough_detected}`],
+  series: [coughsNotDetected, coughsDetected.cough_detected]
+}
+export const optionsCoughsDetected = {
+  donut: true,
+  donutWidth: 60
+}
+
+// [
+//     {angle: coughsDetected.cough_detected, innerRadius: 0.5, label: "Coughs Detected"},
+//     {angle: coughsNotDetected, innerRadius: 0.5, label: "Coughs Not Detected"}
+// ]
 
 
 // Data for Line Chart

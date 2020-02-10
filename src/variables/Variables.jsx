@@ -27,7 +27,7 @@ var defaultWidth =
     ? (window.screen.width * 1) / 3
     : window.screen.width;
 
-var style = {
+export var style = {
   Wrapper: {},
   Containers: {
     DefaultStyle: {
@@ -268,8 +268,8 @@ var style = {
 // // // For tables
 // //
 //
-const thArray = ["ID", "Name", "Salary", "Country", "City"];
-const tdArray = [
+export const thArray = ["ID", "Name", "Salary", "Country", "City"];
+export const tdArray = [
   ["1", "Dakota Rice", "$36,738", "Niger", "Oud-Turnhout"],
   ["2", "Minerva Hooper", "$23,789", "Curaçao", "Sinaai-Waas"],
   ["3", "Sage Rodriguez", "$56,142", "Netherlands", "Baileux"],
@@ -283,7 +283,7 @@ const tdArray = [
 // // // For icons
 // //
 //
-const iconsArray = [
+export const iconsArray = [
   "pe-7s-album",
   "pe-7s-arc",
   "pe-7s-back-2",
@@ -504,7 +504,7 @@ var legendPie = {
 };
 
 // Dummy data for Canairy
-const coughsDetectedLegendPie = {
+export const coughsDetectedLegendPie = {
   names: ["Detected", "Not Detected"],
   types: ["warning", "success"]
 }
@@ -513,14 +513,14 @@ const coughsDetected = dummyData.reduce( (sum, cough) => {
     return ({cough_detected: sum.cough_detected + cough.cough_detected})
   })
 const coughsNotDetected = dummyData.length - coughsDetected.cough_detected
-const coughsDetectedDataPie = [
-  {angle: coughsDetected.cough_detected, innerRadius: 0.5, label: "Coughs Detected"},
-  {angle: coughsNotDetected, innerRadius: 0.5, label: "Coughs Not Detected"}
-];
+export const coughsDetectedDataPie = [
+    {angle: coughsDetected.cough_detected, innerRadius: 0.5, label: "Coughs Detected"},
+    {angle: coughsNotDetected, innerRadius: 0.5, label: "Coughs Not Detected"}
+]
 
 
 // Data for Line Chart
-var dataSales = {
+export var dataSales = {
   labels: [
     "9:00AM",
     "12:00AM",
@@ -537,7 +537,7 @@ var dataSales = {
     [23, 113, 67, 108, 190, 239, 307, 308]
   ]
 };
-var optionsSales = {
+export var optionsSales = {
   low: 0,
   high: 800,
   showArea: false,
@@ -553,7 +553,7 @@ var optionsSales = {
     right: 50
   }
 };
-var responsiveSales = [
+export var responsiveSales = [
   [
     "screen and (max-width: 640px)",
     {
@@ -565,13 +565,13 @@ var responsiveSales = [
     }
   ]
 ];
-var legendSales = {
+export var legendSales = {
   names: ["Open", "Click", "Click Second Time"],
   types: ["info", "danger", "warning"]
 };
 
 // Data for Bar Chart
-var dataBar = {
+export var dataBar = {
   labels: [
     "Jan",
     "Feb",
@@ -591,14 +591,14 @@ var dataBar = {
     [412, 243, 280, 580, 453, 353, 300, 364, 368, 410, 636, 695]
   ]
 };
-var optionsBar = {
+export var optionsBar = {
   seriesBarDistance: 10,
   axisX: {
     showGrid: false
   },
   height: "245px"
 };
-var responsiveBar = [
+export var responsiveBar = [
   [
     "screen and (max-width: 640px)",
     {
@@ -611,26 +611,26 @@ var responsiveBar = [
     }
   ]
 ];
-var legendBar = {
+export var legendBar = {
   names: ["Tesla Model S", "BMW 5 Series"],
   types: ["info", "danger"]
 };
 
-module.exports = {
-  style, // For notifications (App container and Notifications view)
-  thArray,
-  tdArray, // For tables (TableList view)
-  iconsArray, // For icons (Icons view)
-  dataPie,
-  legendPie,
-  coughsDetectedLegendPie,
-  coughsDetectedDataPie,
-  dataSales,
-  optionsSales,
-  responsiveSales,
-  legendSales,
-  dataBar,
-  optionsBar,
-  responsiveBar,
-  legendBar // For charts (Dashboard view)
-};
+// module.exports = {
+//   style, // For notifications (App container and Notifications view)
+//   thArray,
+//   tdArray, // For tables (TableList view)
+//   iconsArray, // For icons (Icons view)
+//   dataPie,
+//   legendPie,
+//   coughsDetectedLegendPie,
+//   coughsDetectedDataPie,
+//   dataSales,
+//   optionsSales,
+//   responsiveSales,
+//   legendSales,
+//   dataBar,
+//   optionsBar,
+//   responsiveBar,
+//   legendBar // For charts (Dashboard view)
+// };

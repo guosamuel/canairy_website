@@ -31,6 +31,9 @@ import {
   coughsDetectedLegendPie,
   coughsDetectedDataPie,
   optionsCoughsDetected,
+  characteristicsLegendPie,
+  characteristicsDataPie,
+  optionsCharacteristicsDetected,
   dataSales,
   optionsSales,
   responsiveSales,
@@ -53,6 +56,8 @@ class Dashboard extends Component {
     return legend;
   }
   render() {
+    console.log("COUGHS DETECTED", coughsDetectedDataPie)
+    console.log("CHARACTRISTICS", characteristicsDataPie)
     return (
       <div className="content">
         <Grid fluid>
@@ -109,11 +114,11 @@ class Dashboard extends Component {
                     id="chartPreferences"
                     className="ct-chart ct-perfect-fourth"
                   >
-                    <ChartistGraph data={coughsDetectedDataPie} options={optionsCoughsDetected} type="Pie" />
+                    <ChartistGraph data={characteristicsDataPie} options={optionsCharacteristicsDetected} type="Pie" />
                   </div>
                 }
                 legend={
-                  <div className="legend">{this.createLegend(coughsDetectedLegendPie)}</div>
+                  <div className="legend">{this.createLegend(characteristicsLegendPie)}</div>
                 }
               />
             </Col>

@@ -512,15 +512,40 @@ export const coughsDetectedLegendPie = {
 const coughsDetected = dummyData.reduce( (sum, cough) => {
     return ({cough_detected: sum.cough_detected + cough.cough_detected})
   })
+
 const coughsNotDetected = dummyData.length - coughsDetected.cough_detected
+console.log("COUGHS NOT DETECTED", coughsNotDetected)
 export const coughsDetectedDataPie = {
   labels: [`${coughsNotDetected}`, `${coughsDetected.cough_detected}`],
   series: [coughsNotDetected, coughsDetected.cough_detected]
 }
+
 export const optionsCoughsDetected = {
   donut: true,
   donutWidth: 60
 }
+
+export const characteristicsLegendPie = {
+  names: ["Dry", "Wet"],
+  types: ["danger", "info"]
+}
+
+const wet = dummyData.reduce( (sum, cough) => {
+  return ({characteristics: sum.characteristics + cough.characteristics})
+})
+
+const dry = dummyData.length - wet.characteristics
+console.log("DRY", dry)
+export const characteristicsDataPie = {
+  labels: [`${wet.characteristics}`, `${dry}`],
+  series: [wet.characteristics, dry]
+}
+
+export const optionsCharacteristicsDetected = {
+  donut: true,
+  donutWidth: 60
+}
+
 
 // [
 //     {angle: coughsDetected.cough_detected, innerRadius: 0.5, label: "Coughs Detected"},

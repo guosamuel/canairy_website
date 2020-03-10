@@ -38,6 +38,9 @@ import {
   optionsSales,
   responsiveSales,
   legendSales,
+  dataSeverity,
+  optionsSeverity,
+  responsiveSeverity,
   dataBar,
   optionsBar,
   responsiveBar,
@@ -66,21 +69,18 @@ class Dashboard extends Component {
               <Card
                 statsIcon="fa fa-history"
                 id="chartHours"
-                title="Users Behavior"
-                category="24 Hours performance"
-                stats="Updated 3 minutes ago"
+                title="Severity"
+                category="Performance To Date"
+                stats="Updated Now"
                 content={
                   <div className="ct-chart">
                     <ChartistGraph
-                      data={dataSales}
+                      data={dataSeverity}
                       type="Line"
-                      options={optionsSales}
-                      responsiveOptions={responsiveSales}
+                      options={optionsSeverity}
+                      responsiveOptions={responsiveSeverity}
                     />
                   </div>
-                }
-                legend={
-                  <div className="legend">{this.createLegend(legendSales)}</div>
                 }
               />
             </Col>

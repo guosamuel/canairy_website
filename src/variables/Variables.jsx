@@ -503,7 +503,7 @@ var legendPie = {
   types: ["info", "danger", "warning"]
 };
 
-// Dummy data for Canairy
+///********************** Dummy data for Canairy ****************************///
 export const coughsDetectedLegendPie = {
   names: ["Detected", "Not Detected"],
   types: ["danger", "info"]
@@ -545,13 +545,7 @@ export const optionsCharacteristicsDetected = {
   donut: true,
   donutWidth: 60
 }
-
-
-// [
-//     {angle: coughsDetected.cough_detected, innerRadius: 0.5, label: "Coughs Detected"},
-//     {angle: coughsNotDetected, innerRadius: 0.5, label: "Coughs Not Detected"}
-// ]
-
+///**************************************************************************///
 
 // Data for Line Chart
 export var dataSales = {
@@ -603,6 +597,60 @@ export var legendSales = {
   names: ["Open", "Click", "Click Second Time"],
   types: ["info", "danger", "warning"]
 };
+
+///********************** Dummy data for Canairy ****************************///
+
+const severityXAxis = dummyData.map( data => data.time)
+const severityYAxis = dummyData.map( data => data.severity)
+
+console.log(severityXAxis)
+console.log(severityYAxis)
+
+let maxSeverity = severityYAxis[0]
+let minSeverity = severityYAxis[0]
+
+severityYAxis.forEach( severity => {
+  if (severity >= maxSeverity) {
+    maxSeverity = severity
+  } else if ( severity <= minSeverity) {
+    minSeverity = severity
+  }
+})
+
+export const dataSeverity = {
+  labels: severityXAxis,
+  series: [ severityYAxis ]
+};
+export const optionsSeverity = {
+  low: minSeverity--,
+  high: maxSeverity++,
+  showArea: false,
+  height: "245px",
+  axisX: {
+    showGrid: true
+  },
+  lineSmooth: true,
+  showLine: true,
+  showPoint: false,
+  fullWidth: true,
+  chartPadding: {
+    right: 50
+  }
+};
+export const responsiveSeverity = [
+  [
+    "screen and (max-width: 640px)",
+    {
+      axisX: {
+        labelInterpolationFnc: function(value) {
+          return value[0];
+        }
+      }
+    }
+  ]
+];
+
+///**************************************************************************///
 
 // Data for Bar Chart
 export var dataBar = {

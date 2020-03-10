@@ -600,7 +600,17 @@ export var legendSales = {
 
 ///********************** Dummy data for Canairy ****************************///
 
-const severityXAxis = dummyData.map( data => data.time)
+let date
+
+const severityXAxis = dummyData.map( data => {
+  if (date !== data.created_at.substring(0, data.created_at.length-5)) {
+    date = data.created_at.substring(0, data.created_at.length-5)
+    return date
+  } else {
+    return null
+  }
+})
+
 const severityYAxis = dummyData.map( data => data.severity)
 
 console.log(severityXAxis)
